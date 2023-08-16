@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  width: 900px;
+  height: 550px;
+  display: flex;
+  border: 3px solid Darkgrey;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px 5px slategray;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1:hover {
+  color: maroon;
+}
+
+.avatar {
+  width: 40%;
+  background: url("https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/595a6198bebafb3c5c811730/1499095469215/?format=2500w");
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* 右邊欄位：人名、描述 */
+.content {
+  padding: 40px 60px;
+  width: 50%;
+}
+
+.name {
+  font-size: 40px;
+  color: #272727;
+}
+
+.job-title {
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #DDDDDD;
+}
+
+p {
+  font-style: italic;
+  line-height: 30px;
+}
